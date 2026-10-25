@@ -6,7 +6,7 @@
 <title>سياسة الخصوصية | AKEEDO أكيدو</title>
 <meta name="description" content="سياسة الخصوصية لتطبيق AKEEDO (أكيدو): ما البيانات التي نعالجها، ولماذا، وكيف يمكنك طلب الوصول إليها أو حذفها.">
 <meta name="theme-color" content="#EBFF90">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23EBFF90'/%3E%3Cpath d='M26 62 42 30h8L34 62zM52 38h8l12 24h-7zM64 38h12v5H64zM64 48h10v5H64zM64 58h12v5H64z' fill='%230A0A0A'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%23EBFF90'/%3E%3Ctext x='50' y='72' font-size='64' font-family='Arial,sans-serif' font-weight='900' text-anchor='middle' fill='%230A0A0A'%3EA%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
@@ -41,7 +41,7 @@ svg.logo{fill:currentColor;stroke:none;display:block}
 
 /* Hero */
 .hero{background:var(--lime);color:var(--ink);overflow:hidden}
-.hero-in{max-width:1120px;margin:0 auto;padding:60px 28px 56px;display:grid;grid-template-columns:1.25fr .75fr;gap:32px;align-items:center}
+.hero-in{max-width:1120px;margin:0 auto;padding:60px 28px 56px;display:grid;display:block}
 .hero h1{font-size:clamp(40px,7.5vw,76px);line-height:1.15;margin:0 0 16px;font-weight:900}
 .hero p{max-width:600px;margin:0 0 24px;font-size:18px;color:#26280F}
 .stamp{display:inline-flex;align-items:center;gap:8px;background:var(--ink);color:var(--lime);padding:6px 16px;border-radius:999px;font-size:15px;font-weight:600}
@@ -105,8 +105,7 @@ footer a:hover{background:none;color:var(--lime)}
   .toc{position:static;max-height:none}
   .toc ol{columns:2;column-gap:8px}
   .sec{padding:22px 18px}
-  .hero-in{grid-template-columns:1fr;padding:40px 22px 36px}
-  .hero .big{max-width:200px;justify-self:start;order:-1}
+  .hero-in{padding:40px 22px 36px}
 }
 @media (max-width:600px){
   .toc ol{columns:1}
@@ -133,16 +132,6 @@ footer a:hover{background:none;color:var(--lime)}
 <a class="skip" href="#content">تخطَّ إلى المحتوى</a>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <!-- شعار AKEEDO -->
-  <symbol id="logo" viewBox="110 396 1015 462">
-    <path d="M475 406H558C500 484 420 584 346 686C300 746 256 800 213 847H121C185 770 245 698 320 604C375 535 430 465 475 406Z"/>
-    <rect x="349" y="714" width="155" height="48"/>
-    <path d="M528 607L682 847H618L487 636Z"/>
-    <path d="M746 406H830C805 437 775 472 752 500C730 528 712 556 697 580C687 597 685 618 692 636C699 653 712 670 724 688C760 737 795 790 830 847H753C720 800 685 748 650 697C628 664 618 633 626 604C634 570 650 540 668 514C692 478 720 442 746 406Z"/>
-    <rect x="853" y="489" width="260" height="54"/>
-    <rect x="853" y="611" width="197" height="52"/>
-    <rect x="853" y="735" width="260" height="51"/>
-  </symbol>
   <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
   <symbol id="i-wa" viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.4 8.4 0 0 1-3.8-.9L3 21l1.9-5.7a8.4 8.4 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.4 8.4 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8v.5z"/><path d="M9.2 8.6c-.3.9.2 2.1 1.3 3.2s2.3 1.6 3.2 1.3l.8-.9-1.5-1-.7.5c-.5-.2-1.2-.9-1.4-1.4l.5-.7-1-1.5z"/></symbol>
   <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
@@ -152,7 +141,6 @@ footer a:hover{background:none;color:var(--lime)}
 <header class="top">
   <div class="top-in">
     <a class="brand" href="#top" aria-label="AKEEDO أكيدو">
-      <span class="tile"><svg class="logo" viewBox="110 396 1015 462" aria-hidden="true"><use href="#logo"/></svg></span>
       <span><b>AKEEDO</b><small>أكيدو</small></span>
     </a>
     <a class="go" href="#contact"><svg class="i" aria-hidden="true"><use href="#i-mail"/></svg><span>تواصل معنا</span></a>
@@ -166,7 +154,6 @@ footer a:hover{background:none;color:var(--lime)}
       <p>بضاعة أصلية تستحق ثقة حقيقية. توضّح هذه الصفحة بلغة بسيطة ما البيانات التي يعالجها تطبيق AKEEDO، ولماذا نحتاجها، وما الخيارات المتاحة لك.</p>
       <span class="stamp"><svg class="i" aria-hidden="true"><use href="#i-clock"/></svg>آخر تحديث: <time datetime="2026-10-25">25 أكتوبر 2026</time></span>
     </div>
-    <div class="big" role="img" aria-label="شعار AKEEDO"><svg class="logo" viewBox="110 396 1015 462" aria-hidden="true"><use href="#logo"/></svg></div>
   </div>
 </section>
 
@@ -311,22 +298,22 @@ footer a:hover{background:none;color:var(--lime)}
       <p>إذا كانت لديك أسئلة حول سياسة الخصوصية أو بياناتك الشخصية أو رغبت في تقديم طلب متعلق ببياناتك، يمكنك التواصل مع فريق AKEEDO عبر إحدى الوسائل التالية.</p>
 
       <div class="btns">
-        <a class="btn wa" href="https://wa.me/9647708555335" target="_blank" rel="noopener noreferrer">
+        <a class="btn wa" href="https://wa.me/9647849702027" target="_blank" rel="noopener noreferrer">
           <svg class="i" aria-hidden="true"><use href="#i-wa"/></svg>تواصل معنا عبر واتساب
         </a>
-        <a class="btn ml" href="mailto:vendora.app2026@gmail.com">
+        <a class="btn ml" href="mailto:akeedo2026@gmail.com">
           <svg class="i" aria-hidden="true"><use href="#i-mail"/></svg>راسلنا عبر البريد الإلكتروني
         </a>
       </div>
 
       <div class="copyrow">
         <div class="copy">
-          <div><small>رقم واتساب</small><bdi dir="ltr">+9647708555335</bdi></div>
-          <button type="button" data-copy="+9647708555335" aria-label="نسخ رقم واتساب"><svg class="i" aria-hidden="true"><use href="#i-copy"/></svg><span>نسخ</span></button>
+          <div><small>رقم واتساب</small><bdi dir="ltr">+9647849702027</bdi></div>
+          <button type="button" data-copy="+9647849702027" aria-label="نسخ رقم واتساب"><svg class="i" aria-hidden="true"><use href="#i-copy"/></svg><span>نسخ</span></button>
         </div>
         <div class="copy">
-          <div><small>البريد الإلكتروني</small><bdi dir="ltr">vendora.app2026@gmail.com</bdi></div>
-          <button type="button" data-copy="vendora.app2026@gmail.com" aria-label="نسخ البريد الإلكتروني"><svg class="i" aria-hidden="true"><use href="#i-copy"/></svg><span>نسخ</span></button>
+          <div><small>البريد الإلكتروني</small><bdi dir="ltr">akeedo2026@gmail.com</bdi></div>
+          <button type="button" data-copy="akeedo2026@gmail.com" aria-label="نسخ البريد الإلكتروني"><svg class="i" aria-hidden="true"><use href="#i-copy"/></svg><span>نسخ</span></button>
         </div>
       </div>
       <p role="status" aria-live="polite" id="toast" style="margin:12px 0 0;min-height:1.6em;color:var(--lime);font-size:15px"></p>
@@ -336,10 +323,10 @@ footer a:hover{background:none;color:var(--lime)}
 
 <footer>
   <div class="f-in">
-    <div class="brand"><span class="tile"><svg class="logo" viewBox="110 396 1015 462" aria-hidden="true"><use href="#logo"/></svg></span><span><b>AKEEDO</b><small>أكيدو</small></span></div>
+    <div class="brand"><span><b>AKEEDO</b><small>أكيدو</small></span></div>
     <div class="f-links">
-      <a href="mailto:vendora.app2026@gmail.com" dir="ltr">vendora.app2026@gmail.com</a>
-      <a href="https://wa.me/9647708555335" target="_blank" rel="noopener noreferrer" dir="ltr">+9647708555335</a>
+      <a href="mailto:akeedo2026@gmail.com" dir="ltr">akeedo2026@gmail.com</a>
+      <a href="https://wa.me/9647849702027" target="_blank" rel="noopener noreferrer" dir="ltr">+9647849702027</a>
     </div>
     <div>© <span id="yr">2026</span> AKEEDO. جميع الحقوق محفوظة. <span class="tag" dir="ltr">For sure.</span></div>
   </div>
